@@ -1,6 +1,6 @@
 package interpreter;
 
-public class Expr {
+abstract class Expr {
     static class Binary extends Expr{
         Binary(Expr left,Token operator,Expr right){
             this.left=left;
